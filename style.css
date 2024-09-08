@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Playfair Display", serif;
+}
+:root{
+    --x : rgb(66, 8, 8);
+}
+#main{
+    background-image: url(./images/bg2.jpg);
+    width: 100%;
+    /* height: 100vh;*/
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed;
+}
+#logo{
+    width: 180px;
+    height: 100px;
+}
+ul li{
+    font-size: 20px;
+}
+#BUTTON{
+    background-color:var(--x) ;
+    color: rgb(243, 234, 234);
+}
+#BUTTON:hover{
+    background-color: #fff;
+    color:var(--x);
+    border-color: var(--x);
+}
+li i{
+    color:rgb(176, 172, 172);
+}
+
+#bacg{
+    background-color: rgba(0, 0, 0, 0.42);
+    width: 100%;
+    /* height: 100vh; */
+}
+/*  
+    @media(max-width:992px){
+        .nav-item i{
+            display: none;
+        }
+    }
+ */
+#welcome{
+    margin-top: 18%;
+    margin-left: 5%;
+    color: #fff;
+}
+#welcome h3{
+    font-size: 30px;
+}
+#welcome h1{
+    font-size: 100px;
+}
+@media(max-width:600px){
+    #welcome h3{
+        font-size: 20px;
+    }
+    #welcome h1{
+        font-size: 50px; 
+}
+}
+#welcome button{
+    border-color: white;
+    color:white;
+}
+#work{
+    background-image: url(https://img.freepik.com/premium-photo/watercolor-background-grey-watercolour-painting-textured-design-white-paper-background_7190-3250.jpg);
+    background-position: center;
+    background-size: cover;
+    
+    padding-top: 6%;
+}
+#ViewBTN ,#ViewBTN2 ,#ViewBTN3 ,#ViewBTN4,#ViewBTN5{
+    background-color: #fff;
+    color:var(--x);
+    border-color: var(--x);
+
+}
+#ViewBTN:hover ,#ViewBTN2:hover ,#ViewBTN3:hover , #ViewBTN4:hover ,#ViewBTN5:hover{ 
+    background-color:var(--x) ;
+    color: rgb(243, 234, 234);
+}
+#about{
+    background-color: rgba(227, 216, 216, 0.523);
+    padding-top: 8%;
+}
+#about h1{
+    color:var(--x);
+}
+#hr{
+    background-color: var(--x);
+    width:200px;
+    height: 7px;
+}
+#about p{
+    text-align: justify;
+}
+#aboutDiv{
+    border: 7px solid var(--x);
+    width: 90%;
+    height: 490px;
+    padding-top: 4%;
+    padding-left: 4%;
+}
+#div1{
+    background-color: rgba(0, 0, 0, 0.822);
+    width: 50%;
+    height: 6rem;
+    color: white;
+}
+.div2{
+    background-color: rgba(0, 0, 0, 0.822);
+    width: 70%;
+    height: 6rem;
+    color: white;
+}
